@@ -1,12 +1,18 @@
 import React from "react";
 import Calculator from "./components/Calculator";
 
-const App = () => {
+function App() {
   return (
-    <div style={{ backgroundColor: "#f5f5f5", minHeight: "100vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
+    <div style={{
+      backgroundColor: "#f5f5f5",
+      minHeight: "100vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center"
+    }}>
       <Calculator />
     </div>
   );
-};
+}
 
 export default App;

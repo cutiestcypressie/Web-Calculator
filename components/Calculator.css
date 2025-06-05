@@ -1,10 +1,10 @@
 .calculator {
     width: 280px;
-    margin: auto;
     padding: 20px;
-    background-color: white;
-    border-radius: 15px;
+    background: #ffffff;
+    border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: auto;
   }
   
   .display {
@@ -13,8 +13,8 @@
     font-size: 24px;
     text-align: right;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 8px;
+    border: 1px solid #ccc;
     margin-bottom: 15px;
   }
   
@@ -28,23 +28,22 @@
     padding: 15px;
     font-size: 18px;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     background: #e0e0e0;
     cursor: pointer;
     transition: 0.2s;
   }
   
   button:hover {
-    background: #d0d0d0;
+    background: #ccc;
   }
   
   .equals {
     grid-column: span 2;
-    background: #4caf50;
+    background-color: #4caf50;
     color: white;
   }
   
   .equals:hover {
-    background: #43a047;
+    background-color: #43a047;
   }
-  
